@@ -1,0 +1,11 @@
+
+    
+---------------------
+  {/* {user.map((usr)=>(
+<Profilepic pic={usr.pic} name={usr.name}/>
+
+  ))}
+   <Counter/>
+       */}
+     
+      <Addcolor/>

@@ -1,38 +1,91 @@
 .App {
-  text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Apple{
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.addcolor{
+  height:30px;
+  width:300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-container{
+  width:350px;
+  margin-top: 20px;
+}
+.product-poster{
+  width:350px;
+  height:350px;
+}
+.product-spec{
+  display:flex;
+  justify-content: space-around;
+  margin-left: 25px;
+
+}
+.product-cat{
+  display:flex;
+  justify-content: space-around;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+
+
+.product-list{
+  display:flex;
+  flex-wrap: wrap;
+  gap:55px;
+}
+
+.counter{
+  margin-left: 20px;
+  
+}
+
+.addproductform{
+  display:flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  gap:10px;
+}
+
+.product-info{
+  margin-left: 50px;
+}
+
+.notfoundpage{
+  margin-top: 300px;
+}
+
+.product-detail-spec{
+  display:flex;
+  
+  justify-content: space-around;
+}
+.detail{
+  margin-left: 130px;
+}
+
+.board{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+width:min-content;
+}
+
+.gamebox{
+  height:12rem;
+  width:12rem;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  border:1px solid black;
+  background-color: aqua;
+  color:aliceblue;
+  font-size: 8rem;
+  cursor:pointer;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
